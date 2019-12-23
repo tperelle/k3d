@@ -1,6 +1,8 @@
 # k3d
 
-Quick test of [k3d](https://github.com/rancher/k3d) to create a dockerised k3s lab on my Macbook Pro.
+Quick test of [k3d](https://github.com/rancher/k3d) to create and manage dockerised k3s labs on my Macbook Pro.
+
+![k3s](https://s3.amazonaws.com/dingo-s3-544e680a-902c-44c1-ab35-94b372e1b39e/2019/11/Screen-Shot-2019-11-21-at-2.22.03-pm.png)
 
 ## Prerequisites
 
@@ -17,6 +19,12 @@ Preparing to install k3d into /usr/local/bin
 Password:
 k3d installed into /usr/local/bin/k3d
 Run 'k3d --help' to see what you can do with it.
+```
+
+You also use Homebrew on MacOS and Linux:
+
+```bash
+$ brew install k3d
 ```
 
 Here is the k3d cli usage:
